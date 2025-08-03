@@ -14,6 +14,15 @@ body {
 .buttons {
   margin-top: 20px;
 }
+#likeBtn {
+  background-color: #4CAF50;
+  color: white;
+}
+
+#dislikeBtn {
+  background-color: #f44336;
+  color: white;
+}
 button {
   font-size: 20px;
   padding: 10px 20px;
