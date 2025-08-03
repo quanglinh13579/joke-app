@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f8ff;
+  text-align: center;
+  margin: 60px;
+}
+
+.joke {
+  font-size: 26px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+button {
+  font-size: 20px;
+  padding: 10px 20px;
+  margin: 0 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  background-color: #007bff;
+  color: white;
+}
+#end-message {
+  font-size: 20px;
+  color: red;
+  display: none;
+  margin-top: 40px;
+}
