@@ -21,11 +21,14 @@ function getNextJokeIndex() {
   return -1;
 }
 
+
 function showJoke() {
   if (currentIndex === -1) {
     document.getElementById('joke').style.display = 'none';
     document.querySelector('.buttons').style.display = 'none';
     document.getElementById('end').style.display = 'block';
+
+
   } else {
     document.getElementById('joke').textContent = jokes[currentIndex];
   }
@@ -38,5 +41,6 @@ function vote(type) {
   currentIndex = getNextJokeIndex();
   showJoke();
 }
+
 
 showJoke();
