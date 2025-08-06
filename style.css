@@ -10,7 +10,7 @@ body {
 }
 
 .header {
-  background-color: #2ecc71;
+  background-color: rgb(49, 209, 49);
   color: white;
   padding: 50px 20px 30px;
   text-align: center;
@@ -73,7 +73,7 @@ body {
   background-color: #207cba;
 }
 .btn.green {
-  background-color: #1e9851;
+  background-color: rgb(49, 209, 49);
 }
 .end-text {
   margin-top: 30px;
